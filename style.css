@@ -5,8 +5,7 @@ nav{
 
 }
 .social-icons{
-    max-width: 380px;
-    background-color: rgb(255, 255, 255);
+    max-width: 180px;
     border-radius: 50px;
 }
 .social-icons a{
@@ -120,11 +119,11 @@ nav{
     text-decoration: none;
     text-transform: uppercase;
     margin-left: -30px;
-    transition: 0.5s;
-
 }
 .nav-l:hover{
     color: rgb(88, 88, 88);
+    border-bottom: 2px solid rgb(58, 58, 58);
+
 
 }
 .demo-painting-i{
@@ -141,6 +140,23 @@ nav{
     height: 310px;
     overflow: hidden;
 }
+@media only screen and (max-width: 650px) {
+    .demo-painting-i{
+        width: 100%;
+        height: 100px;
+        object-fit: contain;
+    }
+    .demo-painting{
+        height: 100px;
+        overflow: hidden;
+        transition: all 0.5s;
+    }
+    .demo-painting:hover{
+        height: 200px;
+        overflow: hidden;
+    }
+
+  }
 /* #demo{ */
     /* position: absolute; */
     /* left: 0; */
@@ -155,27 +171,17 @@ nav{
     height: 200px;
     object-fit: contain;
 }
+@media only screen and (max-width: 650px) {
+    .paint-img{
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+    }
+
+  }
 
 footer{
-    background-color: rgb(70, 70, 70);
-    color: white;
+    background-color: rgb(207, 207, 207);
+    color: rgb(41, 41, 41);
     padding: 2%;
-}
-.suscribe{
-    background-color: white;
-    border-radius: 50px;
-    padding: 5px 15px ;
-}
-.suscribe-input{
-    border: none;
-    outline: none;
-    font-size: 15px;
-    padding: 5px;
-    width: 100%;
-    background-color: white;
-
-}
-.suscribe-btn{
-    background-color: white;
-    border: none;
 }
