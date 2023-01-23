@@ -205,6 +205,20 @@ footer{
     margin-top: 6%;
 }
 
-.conditions li{
-    list-style: none;
+.conditions a{
+    text-decoration: none;
+    color: black;
 }
+.conditions{
+    text-align: end;
+}
+
+@media only screen and (max-width: 650px) {
+    .conditions{
+        text-align: center;
+    }
+    #cond{
+        text-align: center;
+    }
+
+  }
